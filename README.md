@@ -1,5 +1,5 @@
 # Open-source проект для [RTUITLab](https://vk.com/rtuitlab)
-# Потребуется Asp.Net Core, SQL Server Management Studio 18
+# Потребуется [Asp.Net Core](https://dotnet.microsoft.com/download), [SQL Server Management Studio 18](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 # Для работы к проекту надо подключить NuGet System.Data.SqlClient
 ### В SQL создать базу данных с названием TodoRun и TaskArchive
 > Скрипты для создания бд и таблиц приложены здесь
@@ -14,7 +14,7 @@ DESKTOP-GSFVRI0
 Проверка подлинности Windows
 ### Port
 44330
-# Postman
+# [Postman](https://www.postman.com/downloads/)
 body -> raw -> JSON
 settings -> general -> SSL certificate verification OFF
 # Запросы по localhost:44330/api/todo
