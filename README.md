@@ -1,4 +1,4 @@
-# Потребуется Asp.Net Core, SQL Serever Managment Studio
+# Потребуется Asp.Net Core, SQL Server Management Studio 18
 # Для работы к проекту надо подключить NuGet System.Data.SqlClient
 # В SQL создать базу данных с названием TodoRun и TaskArchive
 > Скрипты для создания бд и таблиц приложены здесь
