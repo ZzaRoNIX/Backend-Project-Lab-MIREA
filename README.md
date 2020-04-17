@@ -18,41 +18,41 @@ DESKTOP-GSFVRI0
 body -> raw -> JSON
 settings -> general -> SSL certificate verification OFF
 # Запросы по localhost:44330/api/todo
-- [Post] Create 
-{
+### [Post] Create 
+- {
 "UserID":"существующий юзер",
 "TaskName":"Имя задачи",
 “TaskDescription”:”Описание задачи”
 }
-- [Get] Find 
-{
+### [Get] Find 
+- {
 "UserID":"существующий юзер",
 “StartDate”:”дд-мм-гггг”,
 “EndDate”:”дд-мм-гггг”
 }
 
-- [Patch] Update 
-{
+### [Patch] Update 
+- {
 "UserID":"существующий юзер",
 "CurrentCounter":"номер задачи",
 "TaskDescription":"ваше измененное описание"
 }
 
-- [Put] Archive(пометка как выполненное и архивация) 
-{
+### [Put] Archive(пометка как выполненное и архивация) 
+- {
 "UserID":"существующий юзер",
 "CurrentCounter":"номер задачи"
 }
 
-- [Delete] Delete 
-{
+### [Delete] Delete 
+- {
 "UserID":"существующий юзер",
 "CurrentCounter":"номер задачи"
 }
 
 # Запросы по localhost:port/api/todo/getall
-[Get] GetAll 
-{
+### [Get] GetAll 
+- {
 "UserID":"существующий юзер",
 "Flag":""  (0 - невыполненные, 1 - выполненные, если оставить пустым, то выведет всё)
 }
