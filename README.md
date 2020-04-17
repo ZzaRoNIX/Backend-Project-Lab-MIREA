@@ -16,7 +16,7 @@ DESKTOP-GSFVRI0
 # Postman
 body -> raw -> JSON
 settings -> general -> SSL certificate verification OFF
-# Запросы по https://localhost:44330/api/todo
+# Запросы по localhost:44330/api/todo
 - [Post] Create 
 {
 "UserID":"существующий юзер",
@@ -49,7 +49,7 @@ settings -> general -> SSL certificate verification OFF
 "CurrentCounter":"номер задачи"
 }
 
-# Запросы по https://localhost:port/api/todo/getall
+# Запросы по localhost:port/api/todo/getall
 [Get] GetAll 
 {
 "UserID":"существующий юзер",
