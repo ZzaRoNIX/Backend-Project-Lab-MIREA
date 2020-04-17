@@ -1,17 +1,18 @@
+# Open-source проект для [RTUITLab](https://vk.com/rtuitlab)
 # Потребуется Asp.Net Core, SQL Server Management Studio 18
 # Для работы к проекту надо подключить NuGet System.Data.SqlClient
-# В SQL создать базу данных с названием TodoRun и TaskArchive
+### В SQL создать базу данных с названием TodoRun и TaskArchive
 > Скрипты для создания бд и таблиц приложены здесь
 ../Backend-Project-Lab-MIREA/SQL Scripts create/
-# Хранимые процедуры SQL
+### Хранимые процедуры SQL
 > ../Backend-Project-Lab-MIREA/Procedures-SQL/
-# Название сервера
+### Название сервера
 DESKTOP-GSFVRI0
-# Пароль:
+### Пароль:
 Отсутсвовал
-# Проверка подлинности: 
+### Проверка подлинности: 
 Проверка подлинности Windows
-# Port
+### Port
 44330
 # Postman
 body -> raw -> JSON
