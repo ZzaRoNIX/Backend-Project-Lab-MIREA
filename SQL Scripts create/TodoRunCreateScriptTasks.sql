@@ -1,7 +1,7 @@
 USE [TodoRun]
 GO
 
-/****** Object:  Table [dbo].[Tasks]    Script Date: 17.04.2020 22:05:58 ******/
+/****** Object:  Table [dbo].[Tasks]    Script Date: 18.04.2020 19:54:33 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -25,3 +25,9 @@ CREATE TABLE [dbo].[Tasks](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 
+ALTER TABLE [dbo].[Tasks]  WITH CHECK ADD  CONSTRAINT [FK_UserUser] FOREIGN KEY([UserID])
+REFERENCES [dbo].[Users] ([UserName])
+GO
+
+ALTER TABLE [dbo].[Tasks] CHECK CONSTRAINT [FK_UserUser]
+GO
